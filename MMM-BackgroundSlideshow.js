@@ -15,6 +15,8 @@
 Module.register('MMM-BackgroundSlideshow', {
   // Default module config.
   defaults: {
+    maxWidth: "800",
+		maxHeight: "600",
     // an array of strings, each is a path to a directory with images
     imagePaths: ['modules/MMM-BackgroundSlideshow/exampleImages'],
     // do not recurse into these subdirectory names when scanning.
